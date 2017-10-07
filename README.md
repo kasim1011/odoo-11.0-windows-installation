@@ -42,5 +42,5 @@ Install remaining requirements using
 Download and install [wkhtmltox](https://wkhtmltopdf.org/downloads.html).<br />
 Add `C:\Program Files\wkhtmltopdf\bin` to `PATH`<br />
 <br />
-Goto `odoo` directory and run odoo using<br />
+Goto `odoo` directory and run `odoo` using<br />
 `$ python3 odoo-bin -w odoo -r odoo --addons-path=addons --log-level=debug_rpc`<br />
