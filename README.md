@@ -27,13 +27,13 @@ Download and install <a href="https://www.python.org/downloads/" target="_blank"
 
 Launch `Git Bash` as Administrator (for all `pip` installation).<br />
  * Install `pypiwin32` by `$  python3 -m pip install pypiwin32`
- * Install `psycopg2` by `$  python3 -m pip install psycopg2-2.7.3-cp36-cp36m-win_amd64.whl`
- * Install `python-ldap` by `$ python3 -m pip install pyldap-2.4.37-cp36-cp36m-win_amd64.whl`
- * Install `gevent` by `$ python3 -m pip install gevent-1.2.2-cp36-cp36m-win_amd64.whl`
- * Install `psutil` by `$ python3 -m pip install psutil-5.3.1-cp36-cp36m-win_amd64.whl`
- * Install `lxml` by `$ python3 -m pip install lxml-3.8.0-cp36-cp36m-win_amd64.whl`
- * Install `Pillow` by `$ python3 -m pip install Pillow-3.4.2-cp36-cp36m-win_amd64.whl`
- * Install `reportlab` by `$ python3 -m pip install reportlab-3.4.0-cp36-cp36m-win_amd64.whl`
+ * Install [`Pillow`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/Pillow-3.4.2-cp36-cp36m-win_amd64.whl) by `$ python3 -m pip install Pillow-3.4.2-cp36-cp36m-win_amd64.whl`
+ * Install [`gevent`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/gevent-1.2.2-cp36-cp36m-win_amd64.whl) by `$ python3 -m pip install gevent-1.2.2-cp36-cp36m-win_amd64.whl`
+ * Install [`lxml`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/lxml-3.8.0-cp36-cp36m-win_amd64.whl) by `$ python3 -m pip install lxml-3.8.0-cp36-cp36m-win_amd64.whl`
+ * Install [`psutil`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/psutil-5.3.1-cp36-cp36m-win_amd64.whl) by `$ python3 -m pip install psutil-5.3.1-cp36-cp36m-win_amd64.whl`
+ * Install [`psycopg2`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/psycopg2-2.7.3-cp36-cp36m-win_amd64.whl) by `$  python3 -m pip install psycopg2-2.7.3-cp36-cp36m-win_amd64.whl`
+ * Install [`pyldap`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/pyldap-2.4.37-cp36-cp36m-win_amd64.whl) by `$ python3 -m pip install pyldap-2.4.37-cp36-cp36m-win_amd64.whl`
+ * Install [`reportlab`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/reportlab-3.4.0-cp36-cp36m-win_amd64.whl) by `$ python3 -m pip install reportlab-3.4.0-cp36-cp36m-win_amd64.whl`
 
 Install remaining requirements using
  * `$ python3 -m  pip install -r requirements.txt`
