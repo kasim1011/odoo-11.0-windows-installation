@@ -39,7 +39,7 @@ Install remaining requirements using
  * `$ python3 -m  pip install -r requirements.txt`
  * `$ python3 -m pip install -U werkzeug`
 
-Download and install [wkhtmltox](https://wkhtmltopdf.org/downloads.html).<br />
+Download and install [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html).<br />
 Add wkhtmltopdf's `bin` directory (default: `C:\Program Files\wkhtmltopdf\bin`) to your `PATH`.<br />
 <br />
 Launch `Git Bash`.<br />
