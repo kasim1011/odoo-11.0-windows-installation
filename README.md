@@ -1,4 +1,4 @@
-# odoo-11.0-windows-installation
+# Odoo 11.0 Windows Installation
 Install odoo-11.0 from source on Windows
 
 Install [Git for Windows](https://git-scm.com/download/win).<br />
