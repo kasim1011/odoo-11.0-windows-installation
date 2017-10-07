@@ -35,7 +35,7 @@ Launch `Git Bash` as Administrator (for all `pip` installation).<br />
  * Install [`pyldap`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/pyldap-2.4.37-cp36-cp36m-win_amd64.whl) by `$ python3 -m pip install pyldap-2.4.37-cp36-cp36m-win_amd64.whl`
  * Install [`reportlab`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/reportlab-3.4.0-cp36-cp36m-win_amd64.whl) by `$ python3 -m pip install reportlab-3.4.0-cp36-cp36m-win_amd64.whl`
 
-Install remaining requirements using
+Install remaining [`requirements`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/requirements.txt) using
  * `$ python3 -m  pip install -r requirements.txt`
  * `$ python3 -m pip install -U werkzeug`
 
