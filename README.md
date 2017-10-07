@@ -5,9 +5,8 @@ Install [Git for Windows](https://git-scm.com/download/win).<br />
 Install [Node.js LTS](https://nodejs.org/en/download/).<br />
 <br />
 Launch Git Bash.
-```
-$ npm install -g less less-plugin-clean-css
-```
+`$ npm install -g less less-plugin-clean-css`
+
 Download and install [PostgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).<br />
 add PostgreSQL's `bin` directory (default: `C:\Program Files\PostgreSQL\x.x\bin`) to your `PATH`.<br />
 <br />
@@ -16,17 +15,16 @@ create a postgres user with a password using the `PgAdmin` GUI:<br />
  * expand `server` node to create a connection,
  * expande `PostgreSQL` node,
  * select **Object-> Create -> Login/Group Role**,
-    * enter the username in the Role Name field (e.g. odoo),
-    * open the Definition tab and enter the password (e.g. odoo),
-    * open the Privileges tab and give `login` and `create database` rights,
- * click Save.
+    * enter the username in the `Role Name` field (e.g. odoo),
+    * open the `Definition` tab and enter the password (e.g. odoo),
+    * open the `Privileges` tab and give `login` and `create database` rights,
+ * click `save`.
 
 Install [Python3](href="https://www.python.org/downloads/).<br />
-<br />
-goto `C:\Users\rangw\AppData\Local\Programs\Python\PythonXX`.<br />
-rename `python.exe` to `python3.exe` and `pythonw.exe` to `pythonw3.exe`.<br />
-Add `C:\Users\rangw\AppData\Local\Programs\Python\PythonXX` to your `PATH`.<br />
-<br />
+ * goto `C:\Users\rangw\AppData\Local\Programs\Python\PythonXX`.<br />
+ * rename `python.exe` to `python3.exe` and `pythonw.exe` to `pythonw3.exe`.<br />
+ * add `C:\Users\rangw\AppData\Local\Programs\Python\PythonXX` to your `PATH`.<br />
+
 Launch `Git Bash` as Administrator (for all `pip` installation).<br />
  * Install `pypiwin32` by `$  python3 -m pip install pypiwin32`
  * Install `psycopg2` by `$  python3 -m pip install psycopg2-2.7.3-cp36-cp36m-win_amd64.whl`
