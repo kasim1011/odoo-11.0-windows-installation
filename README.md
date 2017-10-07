@@ -4,8 +4,8 @@ Install odoo-11.0 from source on Windows
 Download and install [Git for Windows](https://git-scm.com/download/win).<br />
 Download and install [Node.js LTS](https://nodejs.org/en/download/).<br />
 <br />
-Launch Git Bash.
-`$ npm install -g less less-plugin-clean-css`
+Launch `Git Bash` as Administrator.
+ * Install `Less.js` by `$ npm install -g less less-plugin-clean-css`
 
 Download and install [PostgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).<br />
 add PostgreSQL's `bin` directory (default: `C:\Program Files\PostgreSQL\x.x\bin`) to your `PATH`.<br />
