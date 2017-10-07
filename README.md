@@ -21,9 +21,9 @@ create a `postgres` user with a password using the `PgAdmin` GUI:<br />
  * click `save`.
 
 Download and install <a href="https://www.python.org/downloads/" target="_blank">Python3</a>.<br />
- * goto `C:\Users\rangw\AppData\Local\Programs\Python\PythonXX`.<br />
+ * goto `Python3` installation directory (default: `C:\Users\UserName\AppData\Local\Programs\Python\PythonXX`.<br />
  * rename `python.exe` to `python3.exe` and `pythonw.exe` to `pythonw3.exe`.<br />
- * add `C:\Users\rangw\AppData\Local\Programs\Python\PythonXX` to your `PATH`.<br />
+ * add `Python3` installation directory (default: `C:\Users\UserName\AppData\Local\Programs\Python\PythonXX`) to your `PATH`.<br />
 
 Launch `Git Bash` as Administrator (for all `pip` installation).<br />
  * Install `pypiwin32` by `$  python3 -m pip install pypiwin32`
@@ -40,8 +40,8 @@ Install remaining requirements using
  * `$ python3 -m pip install -U werkzeug`
 
 Download and install [wkhtmltox](https://wkhtmltopdf.org/downloads.html).<br />
-Add `C:\Program Files\wkhtmltopdf\bin` to `PATH`<br />
+Add wkhtmltopdf's `bin` directory (default: `C:\Program Files\wkhtmltopdf\bin`) to your `PATH`.<br />
 <br />
 Launch `Git Bash`.<br />
-Goto `odoo` installation directory and run `odoo` using<br />
+Goto `odoo` directory and run `odoo` using<br />
 `$ python3 odoo-bin -w odoo -r odoo --addons-path=addons --log-level=debug_rpc`<br />
