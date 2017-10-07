@@ -13,7 +13,7 @@ add PostgreSQL's `bin` directory (default: `C:\Program Files\PostgreSQL\x.x\bin`
 create a `postgres` user with a password using the `PgAdmin` GUI:<br />
  * open `PgAdmin4`,
  * expand `server` node to create a connection,
- * expande `PostgreSQL` node,
+ * expand `PostgreSQL` node,
  * select **Object-> Create -> Login/Group Role**,
     * enter the username in the `Role Name` field (e.g. odoo),
     * open the `Definition` tab and enter the password (e.g. odoo),
