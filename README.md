@@ -17,10 +17,9 @@ create a postgres user with a password using the `PgAdmin` GUI:<br />
  * expande `PostgreSQL` node,
  * select **Object-> Create -> Login/Group Role**,
     * enter the username in the Role Name field (e.g. odoo),
-    * then open the Definition tab and enter the password (e.g. odoo),
-    * then open the Privileges tab and give `login` and `create database` rights,
- * then click Save.
-
+    * open the Definition tab and enter the password (e.g. odoo),
+    * open the Privileges tab and give `login` and `create database` rights,
+ * click Save.
 
 Install [Python3](href="https://www.python.org/downloads/).<br />
 <br />
