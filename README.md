@@ -20,7 +20,7 @@ create a postgres user with a password using the `PgAdmin` GUI:<br />
     * open the `Privileges` tab and give `login` and `create database` rights,
  * click `save`.
 
-Install [Python3](href="https://www.python.org/downloads/).<br />
+Download and install [Python3](href="https://www.python.org/downloads).<br />
  * goto `C:\Users\rangw\AppData\Local\Programs\Python\PythonXX`.<br />
  * rename `python.exe` to `python3.exe` and `pythonw.exe` to `pythonw3.exe`.<br />
  * add `C:\Users\rangw\AppData\Local\Programs\Python\PythonXX` to your `PATH`.<br />
