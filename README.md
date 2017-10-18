@@ -25,10 +25,10 @@ create a `postgres` user with a password using the `PgAdmin` GUI:<br />
  * click `save`.
 
 Download and install [`Microsoft Visual C++ 2015 Redistributable`](https://www.microsoft.com/en-us/download/details.aspx?id=52685).<br />
-Download and install <a href="https://www.python.org/downloads/" target="_blank">Python3</a> `version 3.6.*`.<br />
- * goto `Python3` installation directory (default: `C:\Users\UserName\AppData\Local\Programs\Python\PythonXX`.<br />
+Download and install <a href="https://www.python.org/downloads/" target="_blank">Python3</a> `version 3.6`.<br />
+ * goto `Python3` installation directory (default: `C:\Users\{UserName}\AppData\Local\Programs\Python\PythonXX`.<br />
  * rename `python.exe` to `python3.exe` and `pythonw.exe` to `pythonw3.exe`.<br />
- * add `Python3` installation directory (default: `C:\Users\UserName\AppData\Local\Programs\Python\PythonXX`) to your `PATH`.<br />
+ * add `Python3` installation directory (default: `C:\Users\{UserName}\AppData\Local\Programs\Python\PythonXX`) to your `PATH`.<br />
 
 Some of `odoo` dependencies are `non-pure Python packages` which requires `C/C++` compilation during their installation process. you can install those dependencies using one of the following approaches.
  1. Download and install already compiled dependencies in `Wheel (.whl)` format for your system architecture.
