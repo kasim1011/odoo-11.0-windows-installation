@@ -75,3 +75,5 @@ clone `odoo` repository by `git clone https://github.com/odoo/odoo.git -b 11.0`<
 
 Switch to `odoo` installation directory and run `odoo` using<br />
 `$ python3 odoo-bin -w odoo -r odoo --addons-path=addons --log-level=debug_rpc`<br />
+
+<img src="https://raw.githubusercontent.com/kasim1011/odoo-11.0-windows-installation/master/Screenshot.png" />
