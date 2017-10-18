@@ -30,10 +30,10 @@ Download and install <a href="https://www.python.org/downloads/" target="_blank"
  * add `Python3` installation directory (default: `C:\Users\UserName\AppData\Local\Programs\Python\PythonXX`) to your `PATH`.<br />
 
 Some of `python` dependencies requires `C/C++` compilation. you can install those using one of the following approaches.
- * Download and install already compiled dependencies in `Wheel (.whl)` format for your system architecture.
- * Download and install `C/C++` compiler than install those dependencies from source.
- 
-Launch `Command Prompt` as Administrator (installing dependencies from `.whl`.).<br />
+ 1. Download and install already compiled dependencies in `Wheel (.whl)` format for your system architecture.
+ 2. Download and install `C/C++` compiler than install those dependencies from source.
+
+For installing dependencies from `Wheel (.whl)`, launch `Command Prompt` as Administrator.<br />
  * Install `pypiwin32` by `> python3 -m pip install pypiwin32`
  * Install [`Pillow`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/Pillow-3.4.2-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install Pillow-3.4.2-cp36-cp36m-win_amd64.whl`
  * Install [`gevent`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/gevent-1.2.2-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install gevent-1.2.2-cp36-cp36m-win_amd64.whl`
@@ -43,12 +43,13 @@ Launch `Command Prompt` as Administrator (installing dependencies from `.whl`.).
  * Install [`pyldap`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/pyldap-2.4.37-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install pyldap-2.4.37-cp36-cp36m-win_amd64.whl`
  * Install [`reportlab`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/reportlab-3.4.0-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install reportlab-3.4.0-cp36-cp36m-win_amd64.whl`
 
-Download [`Visual C++ 2015 Build Tools`](http://landinghub.visualstudio.com/visual-cpp-build-tools)(installing dependencies from source).<br />
+For installing dependencies from `source`, download [`Visual C++ 2015 Build Tools`](http://landinghub.visualstudio.com/visual-cpp-build-tools).<br />
  * run the installer,
  * select `custom` mode for installation,
  * uncheck all optional features (including `Windows 8.1 SDK`, `Windows 10 SDK`, `ATL/MFC SDK`, `.NET Framework SDK` and other)
  * click `Install`.<br />
-After installation complete
+
+After installation process completes, launch `Command Prompt` as Administrator
  * Install `pypiwin32` by `> python3 -m pip install pypiwin32`
  * Install `Pillow` by `> python3 -m pip install pillow`
  * Install `gevent` by `> python3 -m pip install gevent`
