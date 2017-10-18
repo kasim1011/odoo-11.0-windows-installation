@@ -50,7 +50,7 @@ For installing dependencies from `source`, download [`Visual C++ 2015 Build Tool
  * uncheck all optional features (e.g. `Windows 8.1 SDK`, `Windows 10 SDK`, `ATL/MFC SDK`, `.NET Framework SDK` etc.)
  * click `Install`.<br />
 
-After installation process completes, launch `Command Prompt` as Administrator
+After `Visual C++ 2015 Build Tools` installation process completes, launch `Command Prompt` as Administrator
  * Install `pypiwin32` by `> python3 -m pip install pypiwin32`
  * Install `Pillow` by `> python3 -m pip install pillow`
  * Install `gevent` by `> python3 -m pip install gevent`
