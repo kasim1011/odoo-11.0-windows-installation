@@ -1,6 +1,10 @@
 # Odoo 11.0 Windows Installation
 Install odoo-11.0 from source on Windows
 
+### Prerequisite<br />
+You must have 64 bit version of operating system.<br />
+You must install 64 bit version of following softwares.<br />
+
 Download and install [Git for Windows](https://git-scm.com/download/win).<br />
 Download and install [Node.js LTS](https://nodejs.org/en/download/).<br />
 <br />
@@ -20,12 +24,16 @@ create a `postgres` user with a password using the `PgAdmin` GUI:<br />
     * open the `Privileges` tab and give `login` and `create database` rights,
  * click `save`.
 
-Download and install <a href="https://www.python.org/downloads/" target="_blank">Python3 64-bit</a>.<br />
+Download and install <a href="https://www.python.org/downloads/" target="_blank">Python3 version 3.6.3</a> or newer version.<br />
  * goto `Python3` installation directory (default: `C:\Users\UserName\AppData\Local\Programs\Python\PythonXX`.<br />
  * rename `python.exe` to `python3.exe` and `pythonw.exe` to `pythonw3.exe`.<br />
  * add `Python3` installation directory (default: `C:\Users\UserName\AppData\Local\Programs\Python\PythonXX`) to your `PATH`.<br />
 
-Launch `Command Prompt` as Administrator (for all `pip` installation).<br />
+Some of `python` dependencies requires `C/C++` compilation. you can install those using one of the following approaches.
+ * Download and install already compiled dependencies in `Wheel (.whl)` format for your system architecture.
+ * Download and install `C/C++` compiler than install those dependencies from source.
+ 
+Launch `Command Prompt` as Administrator (installing dependencies from `.whl`.).<br />
  * Install `pypiwin32` by `> python3 -m pip install pypiwin32`
  * Install [`Pillow`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/Pillow-3.4.2-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install Pillow-3.4.2-cp36-cp36m-win_amd64.whl`
  * Install [`gevent`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/gevent-1.2.2-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install gevent-1.2.2-cp36-cp36m-win_amd64.whl`
@@ -34,6 +42,21 @@ Launch `Command Prompt` as Administrator (for all `pip` installation).<br />
  * Install [`psycopg2`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/psycopg2-2.7.3-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install psycopg2-2.7.3-cp36-cp36m-win_amd64.whl`
  * Install [`pyldap`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/pyldap-2.4.37-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install pyldap-2.4.37-cp36-cp36m-win_amd64.whl`
  * Install [`reportlab`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/reportlab-3.4.0-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install reportlab-3.4.0-cp36-cp36m-win_amd64.whl`
+
+Download [`Visual C++ 2015 Build Tools`](http://landinghub.visualstudio.com/visual-cpp-build-tools)(installing dependencies from source).<br />
+ * run the installer,
+ * select `custom` mode for installation,
+ * uncheck all optional features (including `Windows 8.1 SDK`, `Windows 10 SDK`, `ATL/MFC SDK`, `.NET Framework SDK` and other)
+ * click `Install`.<br />
+After installation complete
+ * Install `pypiwin32` by `> python3 -m pip install pypiwin32`
+ * Install `Pillow` by `> python3 -m pip install pillow`
+ * Install `gevent` by `> python3 -m pip install gevent`
+ * Install `lxml` by `> python3 -m pip install lxml`
+ * Install `psutil` by `> python3 -m pip install psutil`
+ * Install `psycopg2` by `> python3 -m pip install psycopg2`
+ * Install `pyldap` by `> python3 -m pip install pyldap`
+ * Install `reportlab` by `> python3 -m pip install reportlab`
 
 Install remaining [`requirements`](https://github.com/kasim1011/odoo-11.0-windows-installation/raw/master/requirements.txt) using
  * `$ python3 -m  pip install -r requirements.txt`
