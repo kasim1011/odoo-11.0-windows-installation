@@ -63,7 +63,7 @@ After `Visual C++ 2015 Build Tools` installation process completes, launch `Comm
  * Install `pyldap` by `> python3 -m pip install pyldap`
  * Install `reportlab` by `> python3 -m pip install reportlab`
 
-Install remaining `pure Python packages` [`requirements`](https://github.com/kasim1011/odoo-11.0-windows-installation/raw/master/requirements.txt) using
+Install remaining `pure Python packages` from [`requirements.txt`](https://github.com/kasim1011/odoo-11.0-windows-installation/raw/master/requirements.txt) using
  * `$ python3 -m  pip install -r requirements.txt`
  * `$ python3 -m pip install -U werkzeug`
 
