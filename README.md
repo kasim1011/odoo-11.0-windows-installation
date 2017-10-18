@@ -25,6 +25,7 @@ create a `postgres` user with a password using the `PgAdmin` GUI:<br />
     * open the `Privileges` tab and give `login` and `create database` rights,
  * click `save`.
 
+Download and install [`Microsoft Visual C++ 2015 Redistributable`](https://www.microsoft.com/en-us/download/details.aspx?id=52685).<br />
 Download and install <a href="https://www.python.org/downloads/" target="_blank">Python3</a> `version 3.6.3` or newer version.<br />
  * goto `Python3` installation directory (default: `C:\Users\UserName\AppData\Local\Programs\Python\PythonXX`.<br />
  * rename `python.exe` to `python3.exe` and `pythonw.exe` to `pythonw3.exe`.<br />
@@ -44,7 +45,7 @@ For installing dependencies from `Wheel (.whl)`, launch `Command Prompt` as Admi
  * Install [`pyldap`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/pyldap-2.4.37-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install pyldap-2.4.37-cp36-cp36m-win_amd64.whl`
  * Install [`reportlab`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/reportlab-3.4.0-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install reportlab-3.4.0-cp36-cp36m-win_amd64.whl`
 
-If you're having `32 bit windows architecture` or other `Python` versions (e.g. `3.4`, `3.5`) installed on your system. you can download `non-pure Python package Wheels (.whl)` targeting your system configurations from [`Laboratory for Fluorescence Dynamics`](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
+If you're having `32 bit Windows architecture` or other `Python` versions (e.g. `3.4`, `3.5`) installed on your system. you can download `non-pure Python package Wheels (.whl)` targeting your system configurations from [`Laboratory for Fluorescence Dynamics`](http://www.lfd.uci.edu/~gohlke/pythonlibs/). you will also require [`Microsoft Visual C++ 2015 Redistributable`](https://www.microsoft.com/en-us/download/details.aspx?id=52685) for `Python 3.5` and [`Microsoft Visual C++ 2010 Redistributable`](http://www.microsoft.com/download/en/details.aspx?id=26999) for `Python 3.4`
 
 For installing dependencies from `source`, download [`Visual C++ 2015 Build Tools`](http://landinghub.visualstudio.com/visual-cpp-build-tools).<br />
  * run the installer,
