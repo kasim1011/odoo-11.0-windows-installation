@@ -5,6 +5,7 @@ Install odoo-11.0 from source on Windows
 You must have 64 bit version of operating system.<br />
 You must install 64 bit version of following softwares.<br />
 
+### Installation<br />
 Download and install [Git for Windows](https://git-scm.com/download/win).<br />
 Download and install [Node.js LTS](https://nodejs.org/en/download/).<br />
 <br />
