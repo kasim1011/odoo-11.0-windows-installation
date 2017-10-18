@@ -1,7 +1,6 @@
 # Odoo 11.0 Windows Installation
 Install odoo-11.0 from source on Windows
 
-### Prerequisite<br />
 It is recommended to have 64 bit version of operating system installed on your system.<br />
 It is recommended to install 64 bit version of all software packages mentioned in installation process.<br />
 
