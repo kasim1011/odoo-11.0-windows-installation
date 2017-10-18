@@ -2,8 +2,8 @@
 Install odoo-11.0 from source on Windows
 
 ### Prerequisite<br />
-You must have 64 bit version of operating system installed on your system.<br />
-You must install 64 bit version of all software packages mentioned in installation process.<br />
+You should have 64 bit version of operating system installed on your system.<br />
+You should install 64 bit version of all software packages mentioned in installation process.<br />
 
 ### Installation<br />
 Download and install [Git for Windows](https://git-scm.com/download/win).<br />
@@ -43,6 +43,8 @@ For installing dependencies from `Wheel (.whl)`, launch `Command Prompt` as Admi
  * Install [`psycopg2`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/psycopg2-2.7.3-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install psycopg2-2.7.3-cp36-cp36m-win_amd64.whl`
  * Install [`pyldap`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/pyldap-2.4.37-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install pyldap-2.4.37-cp36-cp36m-win_amd64.whl`
  * Install [`reportlab`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/reportlab-3.4.0-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install reportlab-3.4.0-cp36-cp36m-win_amd64.whl`
+
+If you're having `32 bit windows architecture` or other `Python` versions (e.g. `3.4`, `3.5`) installed on your system. you can download `non-pure Python package Wheels (.whl)` targeting your system configurations from [`Laboratory for Fluorescence Dynamics`](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
 
 For installing dependencies from `source`, download [`Visual C++ 2015 Build Tools`](http://landinghub.visualstudio.com/visual-cpp-build-tools).<br />
  * run the installer,
