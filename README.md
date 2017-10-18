@@ -46,7 +46,7 @@ For installing dependencies from `Wheel (.whl)`, launch `Command Prompt` as Admi
 For installing dependencies from `source`, download [`Visual C++ 2015 Build Tools`](http://landinghub.visualstudio.com/visual-cpp-build-tools).<br />
  * run the installer,
  * select `custom` mode for installation,
- * uncheck all optional features (including `Windows 8.1 SDK`, `Windows 10 SDK`, `ATL/MFC SDK`, `.NET Framework SDK` and other)
+ * uncheck all optional features (e.g. `Windows 8.1 SDK`, `Windows 10 SDK`, `ATL/MFC SDK`, `.NET Framework SDK` etc.)
  * click `Install`.<br />
 
 After installation process completes, launch `Command Prompt` as Administrator
