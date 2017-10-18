@@ -29,9 +29,9 @@ Download and install <a href="https://www.python.org/downloads/" target="_blank"
  * rename `python.exe` to `python3.exe` and `pythonw.exe` to `pythonw3.exe`.<br />
  * add `Python3` installation directory (default: `C:\Users\UserName\AppData\Local\Programs\Python\PythonXX`) to your `PATH`.<br />
 
-Some of `python` dependencies requires `C/C++` compilation. you can install those using one of the following approaches.
+Some of `python` dependencies requires `C/C++` compilation during their installation process. you can install those dependencies using one of the following approaches.
  1. Download and install already compiled dependencies in `Wheel (.whl)` format for your system architecture.
- 2. Download and install `C/C++` compiler than install those dependencies from source.
+ 2. Download and install `C/C++` compiler than install those dependencies from `source`.
 
 For installing dependencies from `Wheel (.whl)`, launch `Command Prompt` as Administrator.<br />
  * Install `pypiwin32` by `> python3 -m pip install pypiwin32`
