@@ -31,7 +31,7 @@ Download and install <a href="https://www.python.org/downloads/" target="_blank"
  * add `Python3` installation directory (default: `C:\Users\{UserName}\AppData\Local\Programs\Python\PythonXX`) to your `PATH`.<br />
 
 Some of `odoo` dependencies are `non-pure Python packages` which requires `C/C++` compilation during their installation process. you can install those dependencies using one of the following approaches.
- 1. Download and install already compiled dependencies in `Wheel (.whl)` format for your system architecture.
+ 1. Download and install already compiled dependencies in `Wheel (.whl)` format targeting your system configuration.
  2. Download and install `C/C++` compiler than install those dependencies from `source`.
 
 For installing dependencies from `Wheel (.whl)`, launch `Command Prompt` as Administrator.<br />
