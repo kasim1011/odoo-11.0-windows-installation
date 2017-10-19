@@ -62,7 +62,7 @@ After `Visual C++ 2015 Build Tools` installation process completes, launch `Comm
  * Install `pyldap` by `> python3 -m pip install pyldap`
  * Install `reportlab` by `> python3 -m pip install reportlab`
 
-If you're having `Python 3.5` installed on system, `Visual C++ 2015 Build Tools` installation will work but, If you're having `Python 3.4` installed on system, then you will require to install [`Microsoft Windows SDK for Windows 7 and .NET Framework 4`](https://www.microsoft.com/en-us/download/details.aspx?id=8279). for more information visit [`WindowsCompilers`]((https://wiki.python.org/moin/WindowsCompilers)) article on `Python Wiki`.
+If you're having `Python 3.5` installed on system, `Visual C++ 2015 Build Tools` installation will work but, If you're having `Python 3.4` installed on system then you will require [`Microsoft Windows SDK for Windows 7 and .NET Framework 4`](https://www.microsoft.com/en-us/download/details.aspx?id=8279) instead of `Visual C++ 2015 Build Tools`. for more information visit [`WindowsCompilers`](https://wiki.python.org/moin/WindowsCompilers) article on `Python Wiki`.
 
 Install remaining `pure Python packages` from [`requirements.txt`](https://github.com/kasim1011/odoo-11.0-windows-installation/raw/master/requirements.txt) using
  * `$ python3 -m  pip install -r requirements.txt`
