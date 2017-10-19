@@ -36,15 +36,15 @@ Some of `odoo` dependencies are `non-pure Python packages` which requires `C/C++
 
 For installing dependencies from `Wheel (.whl)`, launch `Command Prompt` as Administrator.<br />
  * Install `pypiwin32` by `> python3 -m pip install pypiwin32`
- * Install [`Pillow`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/Pillow-3.4.2-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install Pillow-3.4.2-cp36-cp36m-win_amd64.whl`
- * Install [`gevent`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/gevent-1.2.2-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install gevent-1.2.2-cp36-cp36m-win_amd64.whl`
- * Install [`lxml`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/lxml-3.8.0-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install lxml-3.8.0-cp36-cp36m-win_amd64.whl`
- * Install [`psutil`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/psutil-5.3.1-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install psutil-5.3.1-cp36-cp36m-win_amd64.whl`
- * Install [`psycopg2`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/psycopg2-2.7.3-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install psycopg2-2.7.3-cp36-cp36m-win_amd64.whl`
- * Install [`pyldap`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/pyldap-2.4.37-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install pyldap-2.4.37-cp36-cp36m-win_amd64.whl`
- * Install [`reportlab`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/reportlab-3.4.0-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install reportlab-3.4.0-cp36-cp36m-win_amd64.whl`
+ * Install [`Pillow`](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pillow) by `> python3 -m pip install Pillow-3.4.2-cp36-cp36m-win_amd64.whl`
+ * Install [`gevent`](https://pypi.python.org/pypi/gevent) by `> python3 -m pip install gevent-1.2.2-cp36-cp36m-win_amd64.whl`
+ * Install [`lxml`](https://pypi.python.org/pypi/lxml) by `> python3 -m pip install lxml-3.8.0-cp36-cp36m-win_amd64.whl`
+ * Install [`psutil`](https://pypi.python.org/pypi/psutil) by `> python3 -m pip install psutil-5.3.1-cp36-cp36m-win_amd64.whl`
+ * Install [`psycopg2`](https://pypi.python.org/pypi/psycopg2) by `> python3 -m pip install psycopg2-2.7.3-cp36-cp36m-win_amd64.whl`
+ * Install [`pyldap`](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyldap) by `> python3 -m pip install pyldap-2.4.37-cp36-cp36m-win_amd64.whl`
+ * Install [`reportlab`](https://pypi.python.org/pypi/reportlab) by `> python3 -m pip install reportlab-3.4.0-cp36-cp36m-win_amd64.whl`
 
-If you're having `32 bit Windows architecture` or other `Python` versions (e.g. `3.4`, `3.5`) installed on your system. you can download `non-pure Python package Wheels (.whl)` targeting your system configurations from [`Laboratory for Fluorescence Dynamics`](http://www.lfd.uci.edu/~gohlke/pythonlibs/). If you're having `Python 3.4` installed on system then you will require [`Microsoft Visual C++ 2010 Redistributable`](http://www.microsoft.com/download/en/details.aspx?id=26999) instead of `Microsoft Visual C++ 2015 Redistributable`. for more information visit [`WindowsCompilers`](https://wiki.python.org/moin/WindowsCompilers) article on `Python Wiki`.
+If you're having `32 bit Windows architecture` or other `Python` versions (e.g. `3.4`, `3.5`) installed on your system. you can download `non-pure Python package Wheels (.whl)` targeting your system configurations from [`PyPI`](https://pypi.python.org/pypi) or [`Laboratory for Fluorescence Dynamics`](http://www.lfd.uci.edu/~gohlke/pythonlibs/). If you're having `Python 3.4` installed on system then you will require [`Microsoft Visual C++ 2010 Redistributable`](http://www.microsoft.com/download/en/details.aspx?id=26999) instead of `Microsoft Visual C++ 2015 Redistributable`. for more information visit [`WindowsCompilers`](https://wiki.python.org/moin/WindowsCompilers) article on `Python Wiki`.
 
 For installing dependencies from `source`, download [`Visual C++ 2015 Build Tools`](http://landinghub.visualstudio.com/visual-cpp-build-tools).<br />
  * run the installer,
