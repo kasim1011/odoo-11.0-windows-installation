@@ -44,7 +44,7 @@ For installing dependencies from `Wheel (.whl)`, launch `Command Prompt` as Admi
  * Install [`pyldap`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/pyldap-2.4.37-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install pyldap-2.4.37-cp36-cp36m-win_amd64.whl`
  * Install [`reportlab`](https://github.com/kasim1011/odoo-11.0-windows-installation/blob/master/reportlab-3.4.0-cp36-cp36m-win_amd64.whl) by `> python3 -m pip install reportlab-3.4.0-cp36-cp36m-win_amd64.whl`
 
-If you're having `32 bit Windows architecture` or other `Python` versions (e.g. `3.4`, `3.5`) installed on your system. you can download `non-pure Python package Wheels (.whl)` targeting your system configurations from [`Laboratory for Fluorescence Dynamics`](http://www.lfd.uci.edu/~gohlke/pythonlibs/). you will also require [`Microsoft Visual C++ 2015 Redistributable`](https://www.microsoft.com/en-us/download/details.aspx?id=52685) for `Python 3.5` and [`Microsoft Visual C++ 2010 Redistributable`](http://www.microsoft.com/download/en/details.aspx?id=26999) for `Python 3.4`
+If you're having `32 bit Windows architecture` or other `Python` versions (e.g. `3.4`, `3.5`) installed on your system. you can download `non-pure Python package Wheels (.whl)` targeting your system configurations from [`Laboratory for Fluorescence Dynamics`](http://www.lfd.uci.edu/~gohlke/pythonlibs/). If you're having `Python 3.4` installed on system then you will require [`Microsoft Visual C++ 2010 Redistributable`](http://www.microsoft.com/download/en/details.aspx?id=26999) instead of `Microsoft Visual C++ 2015 Redistributable`. for more information visit [`WindowsCompilers`](https://wiki.python.org/moin/WindowsCompilers) article on `Python Wiki`.
 
 For installing dependencies from `source`, download [`Visual C++ 2015 Build Tools`](http://landinghub.visualstudio.com/visual-cpp-build-tools).<br />
  * run the installer,
@@ -62,7 +62,7 @@ After `Visual C++ 2015 Build Tools` installation process completes, launch `Comm
  * Install `pyldap` by `> python3 -m pip install pyldap`
  * Install `reportlab` by `> python3 -m pip install reportlab`
 
-If you're having `Python 3.5` installed on system, `Visual C++ 2015 Build Tools` installation will work but, If you're having `Python 3.4` installed on system then you will require [`Microsoft Windows SDK for Windows 7 and .NET Framework 4`](https://www.microsoft.com/en-us/download/details.aspx?id=8279) instead of `Visual C++ 2015 Build Tools`. for more information visit [`WindowsCompilers`](https://wiki.python.org/moin/WindowsCompilers) article on `Python Wiki`.
+If you're having `Python 3.4` installed on system then you will require [`Microsoft Windows SDK for Windows 7 and .NET Framework 4`](https://www.microsoft.com/en-us/download/details.aspx?id=8279) instead of `Visual C++ 2015 Build Tools`. for more information visit [`WindowsCompilers`](https://wiki.python.org/moin/WindowsCompilers) article on `Python Wiki`.
 
 Install remaining `pure Python packages` from [`requirements.txt`](https://github.com/kasim1011/odoo-11.0-windows-installation/raw/master/requirements.txt) using
  * `$ python3 -m  pip install -r requirements.txt`
